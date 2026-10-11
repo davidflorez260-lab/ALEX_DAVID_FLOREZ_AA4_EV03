@@ -1,0 +1,12 @@
+ENLACE DEL REPOSITORIO - Evidencia GA7-220501096-AA4-EV03
+
+Aprendiz: Alex David Florez
+
+Repositorio GitHub:
+https://github.com/davidflorez260-lab/ALEX_DAVID_FLOREZ_AA4_EV03
+
+INSTRUCCIONES:
+1. Crea un repositorio nuevo en GitHub llamado: ALEX_DAVID_FLOREZ_AA4_EV03
+2. Sube este proyecto completo al repositorio (git init, add, commit, push).
+3. Copia el enlace real de tu repositorio y reemplaza el de arriba si es diferente.
+4. Guarda este archivo dentro de la carpeta del proyecto antes de comprimir.

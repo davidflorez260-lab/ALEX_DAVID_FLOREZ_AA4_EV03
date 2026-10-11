@@ -1,0 +1,142 @@
+/* ============================================================
+   Estilos de la tarjeta de producto
+   ============================================================ */
+
+.product-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.product-card-img-link {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: #f1f5f9;
+}
+
+.product-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.product-card:hover .product-card-img {
+  transform: scale(1.05);
+}
+
+.product-card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.product-card-categoria {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6366f1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-card-nombre {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.product-card-nombre a {
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.product-card-nombre a:hover {
+  color: #2563eb;
+}
+
+.product-card-precio {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #16a34a;
+  margin: 0;
+}
+
+.product-card-stock {
+  font-size: 0.85rem;
+}
+
+.stock-alto {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.stock-medio {
+  color: #d97706;
+  font-weight: 600;
+}
+
+.stock-bajo {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.product-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.product-card-actions .btn {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.product-card-actions .btn:active {
+  transform: scale(0.97);
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.btn-primary:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #2563eb;
+  border: 1.5px solid #2563eb !important;
+}
+
+.btn-outline:hover {
+  background: #eff6ff;
+}

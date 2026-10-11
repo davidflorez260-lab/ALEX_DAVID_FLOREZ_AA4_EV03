@@ -1,0 +1,42 @@
+/* ============================================================
+   Estilos globales de la aplicación
+   Aprendiz: Alex David Florez
+   Evidencia: GA7-220501096-AA4-EV03
+   ============================================================ */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.app-footer {
+  background: #1e293b;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+}
+
+.app-footer p {
+  margin: 2px 0;
+}
+
+.app-footer strong {
+  color: #e2e8f0;
+}
+
+.not-found {
+  text-align: center;
+  padding: 80px 20px;
+  color: #64748b;
+}
+
+.not-found h2 {
+  color: #1e293b;
+  margin-bottom: 8px;
+}
